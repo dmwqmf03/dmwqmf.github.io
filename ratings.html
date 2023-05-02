@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="ratings.css">
+            <!--bootstrap nav bar-->
+            <!--Source: https://www.w3schools.com/bootstrap/bootstrap_navbar.asp-->
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+            
+            <title>Final Project</title>
+        </head>
+        
+        <body>
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                      <a class="navbar-brand" href="index.html">IT 1000 Final Project</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="hiphop-rap.html">Hip-Hop/Rap</a></li>
+                      <li><a href="pop.html">Pop</a></li>
+                      <li><a href="r-b.html">R&B</a></li>
+                      <li class="active"><a href="ratings.html">Ratings & Rankings</a></li>
+                    </ul>
+                </div>
+            </nav> 
+
+            <h1>Ratings & Rankings</h1>
+
+            <h4>To conclude this project, I have rated each album mentioned on each web page by artist and album, excluding the home page.</h4>
+            
+            <table>
+                <tr>
+                  <th>Ranking</th>
+                  <th>Artist</th>
+                  <th>Album</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Tyler, The Creator</td>
+                  <td>IGOR</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>The Weeknd</td>
+                  <td>House of Balloons</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Kehlani</td>
+                  <td>It Was Good Until It Wasn't</td>
+                </tr>
+            </table>
+
+            <h4 class="block">Block of code used to create styling of table:</h4>
+
+            <div>
+                <pre>
+                    <code>
+                        table {
+                            font-family: Arial, Helvetica, serif;
+                            border-collapse:separate;
+                            width: 55%;
+                            margin-left: auto;
+                            margin-right: auto;
+                            margin-top: 5%;
+                            color: white;
+                          }
+                          
+                        td, th {
+                            border: 0px solid #dddddd;
+                            text-align: left;
+                            padding: 8px;
+                            text-align: center !important;
+                          }
+                          
+                        tr:nth-child(even) {
+                            background-color: #000000;
+                          }
+                    </code>
+                </pre>
+            </div>
+        </body>
+    </html>
